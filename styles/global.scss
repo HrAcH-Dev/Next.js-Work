@@ -1,0 +1,14 @@
+*,
+*::before,
+*:after {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.App {
+    max-width: 1680px;
+    border: 1px solid red;
+}
+
+
+
