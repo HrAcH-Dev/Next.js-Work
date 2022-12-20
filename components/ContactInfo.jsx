@@ -1,7 +1,6 @@
 import React from 'react'
 
 export default function ContactInfo({ contact }) {
-  console.log(contact.address.street)
   const { name, email, address } = contact || {} 
   const { street, suite, city, zipcode } = contact.address
 
